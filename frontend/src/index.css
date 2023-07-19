@@ -13,15 +13,15 @@ header {
   background-color: #404040;
   padding: 1rem;
 }
-main {
-  flex: 1;
-}
-
 header a {
-  color: white;
+  color: #ffffff;
   font-weight: bold;
   text-decoration: none;
 }
+main {
+  padding: 1rem;
+}
+
 .products {
   display: flex;
   flex-wrap: wrap;

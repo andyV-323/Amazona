@@ -1,12 +1,14 @@
-import data from './data';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HomeScreen from './screens/HomeScreen';
+import ProductScreen from './screens/ProductScreen';
+import { Link } from 'react-router-dom';
+
 function App() {
   return (
     <BrowserRouter>
       <div className="App">
         <header>
-          <a href="/">amazona</a>
+          <Link to="/">amazona</Link>
         </header>
         <main>
           <Routes>
