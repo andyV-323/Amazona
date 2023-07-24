@@ -2,7 +2,7 @@ import express from 'express';
 import data from './data.js';
 
 const app = express();
-// test
+// test 
 app.get('/api/products', (req, res) => {
   res.send(data.products);
 });
@@ -22,7 +22,7 @@ app.get('/api/products/:id', (req, res) => {
     res.status(404).send({ message: 'Product Not Found' });
   }
 });
-
+//server port adress
 const port = process.env.PORT || 4000;
 app.listen(port, () => {
   console.log(`serve at http://localhost:${port}`);
